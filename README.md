@@ -1,8 +1,12 @@
-Requirements:
+Transcript App
+
+- Basic app which transcribes an audio file and displays highlighted text to a user.
+- Transcribing process is hosted on a serverless function.
+- Uses open.ai to convert mp3 to text document
+  Requirements:
 
 - Fetch the transcript data from the url provided in the code. Correctly type the returned data with Typescript.
   The page should display the title, and each text block on screen.
-
 - The audio player should be able to play the audio of the earnings report.
 - Audio should not be playing when page is initially loaded. It should only play when user clicks play.
 - Each block of the transcript and the audio should be in sync. Think of it like subtitles on a movie. E.g. when audio is playing from the start (0s), the
@@ -24,3 +28,4 @@ Notes:
 Todo
 
 - Pagination for large parts of text.
+- uploading a mp3.format is a a bit dated. Integrate third party music api's such as spotify

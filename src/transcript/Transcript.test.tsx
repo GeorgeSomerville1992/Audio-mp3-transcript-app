@@ -179,7 +179,7 @@ describe('Home Component', () => {
   });
 
   it('correctly highlights blocks when scrubber input is used', async () => {
-    // Fix this one
+
     mocks.useMutationState.mockReturnValue([transcript]);
     render(<Transcript {...defaultProps} />, { wrapper: AllTheProviders });
 
